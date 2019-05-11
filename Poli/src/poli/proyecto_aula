@@ -43,7 +43,7 @@ mas adelantada
 -----------------------------------------------------------------------------------------------------------------------------
 public class Ejemplo
 
-BufferedWriter br = new BufferedWriter (new OutputStreamWriter (System.out));
+BufferedWriter bw = new BufferedWriter (new OutputStreamWriter (System.out));
 BufferedReader br = new BufferedReader(new InputStreamReader (System.in));
 
 try
