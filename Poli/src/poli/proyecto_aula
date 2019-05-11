@@ -17,3 +17,24 @@ public static int[] posicion_vecine_libre (int f, int c, Board, board)
 		}
 	}
 }	
+
+mas adelantada
+	Primer 1 [0][4]
+		pun1 [3][4] int f1=3, col1=4;
+		pun2 [3][7] int f2=3, col2=7,
+	for (int i=3; i<rows; i++){
+		for(int j=0; j<cols; j++){
+			if (board [i][j] ==1){
+				dist1 = Math.abs(i-f1)+Math.abs(j-col1);
+				dist2 = Math.abs(i-f2)+Math.abs(j-col2);
+					if (dist1 < dist2){
+					id (dist 1 > max){
+					max = dist1;
+							 }
+
+							 }
+
+
+					     }	
+					}
+				 }	
