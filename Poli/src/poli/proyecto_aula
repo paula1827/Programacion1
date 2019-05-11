@@ -1,0 +1,19 @@
+public static int[] posicion_vecine_libre (int f, int c, Board, board)
+{
+	int [] pos= new int [2];
+	if (board[f - 1][c-1] ==0)
+	{
+		pos[0] = f -1;
+		pos[1] = c -1;
+		return pos;
+	}
+	else
+	{
+		if (board[f -1][c] ==0)
+		{
+			pos[0] = f -1;
+			pos[1] = c -1;
+			return pos;
+		}
+	}
+}	
