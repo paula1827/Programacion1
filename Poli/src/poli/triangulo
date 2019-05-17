@@ -5,8 +5,8 @@ public class triangulo
 {
       public static void main(Strings args[])
       {
-            BufferedReader br = new BufferedReader ( InputStreamReader (System.in));
-            BufferedWriter bw = new BufferedWriter ( OutputStreamWriter (System.out));
+            BufferedReader br = new BufferedReader ( new InputStreamReader (System.in));
+            BufferedWriter bw = new BufferedWriter ( new OutputStreamWriter (System.out));
             DecimalFormat df = new DecimalFormat("#0.0");
             
             try
