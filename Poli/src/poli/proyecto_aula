@@ -140,6 +140,46 @@ public class Damas_Chinas
 				      {-1,-1,-1,-1,-1,-1,4,4,-1,-1,-1,-1,-1},
 				       {-1,-1,-1,-1,-1,-1,4,-1,-1,-1,-1,-1,-1}
 				};
-	
+		// rellenar tablero
+				int llenarTablero()
+				{
+				  int i,j,k;
+					for(i=0;i<T;i++)
+					    for(j=0;j<T;j++)
+						{
+							if(i<3&&((i+j)%2==0))
+								tablero[i][j]='n';
+							else
+								if((i>4)&&((i+j)%2==0))
+									tablero[i][j]='b';
+								else
+									tablero[i][j]= ' ' ;
+						}
+				}
+					// tablero 
+					int imprimirTablero()
+					{
+					  int k,j,i;
+						system("clear");
+						for(i=0;i<T;i++)
+						{
+							if (i==0)
+							{
+								printf("  ");
+								for(k=0;k<T;k++)
+									printf(" %d ",k);
+								printf("\n");
+							}
+
+							printf("%d ",i);
+							for(j=0;j<T;j++)
+						  {
+
+								printf(" %c ",tablero[i][j]);
+							}
+							printf("\n");
+						}
+					}
+
 
 
