@@ -1,0 +1,26 @@
+import java.io.*;
+
+public class Sequence IJ 1
+{
+  public static void main (String()arg)
+  {
+    BufferedWriter bw=new BufferedWriter (new OutputStreamWriter(System.out));
+    
+    try
+    {
+       int j = 20,i = 1;
+       while (j<=0)
+     {
+        bw.write( "I=" +i+ "J=" +j+ "\n");
+      
+        i+=3;
+        j-=5;
+     }
+      bw.flush();
+    }
+    catch (Exception e)
+    {
+      e.printStackTrace();
+    }
+  }
+}
